@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/d24c14131d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d24c14131d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d24c14131d.js" crossorigin="anonymous"></script>
     <title>Imersão Alura</title>
 </head>
 <body>
     <header>
         <nav class="menu">
             <ul>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
                 <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contatos">Contato</a></li>
             </ul>
         </nav>
-        <div>
+        <div class="titulo">
             <h1 class="title">Vinícius Monteiro</h1>
             <h2 class="sub-title">Frontend Developer Jr.</h2>
         </div>
     </header>
     
     <section>
-        <h2 class="portfolio">Portfólio</h2>       
+        <h2 class="portfolio" id="portfolio">Portfólio</h2>       
 
         <div class="container">
             <figure>                
@@ -43,11 +47,21 @@
             </figure>
     </div>    
     </section>
-    <section class="contatos">
+    <section class="contatos" id="contatos">
         <h2>Contatos</h2>
         <div class="grid-icons">
-            <a href="https://github.com/ViniMonteiro1990" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/vinicius-monteiro-rodrigues/" target="_blank">Linkdin</a>
+            
+            <a 
+            href="https://github.com/ViniMonteiro1990" 
+            target="_blank">
+            <i class="fab fa-github"></i>
+            </a>
+
+            <a 
+            href="https://www.linkedin.com/in/vinicius-monteiro-rodrigues/" 
+            target="_blank">
+            <i class="fab fa-linkedin"></i>
+            </a>
         </div>
     </section>
     
