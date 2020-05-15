@@ -75,25 +75,45 @@ a:hover{
     font-size: 3em;
    ;
 }
+.sobre,
 .contatos,
 .portfolio{
     margin-bottom: 1.5em;
     color: #ffffff;
     font-size: 35px;
     text-align: center;
-    padding: 1em;
+    padding: 2em;
+    margin-top: -2em;
 }
+.sobre h2,
 .contatos h2,
 .portfolio h2{
     color: blanchedalmond;
     margin-bottom: 1.5em;
     font-size: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+figure{
+    float: right;
+    margin-left: 1.5em;
+    
+}
+.sobre img{
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
 }
 .container{
     text-align: center;
     display: grid;
     gap: 15px;
     grid-template-columns: 1fr 1fr;
+}
+.sobre p{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 1.4em;
 }
 .img-portfolio{
     border-radius: 15%;
